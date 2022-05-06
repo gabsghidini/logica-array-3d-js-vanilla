@@ -9,6 +9,7 @@ function multiplicacaoDe10 () {
     resultado.push(resultadoAux);
     resultadoAux = [];
   }
+  console.table(resultado);
   return resultado;
 }
 
@@ -24,12 +25,6 @@ function tabelaMultiplicacao (num) {
     resultado.push(resultadoAux);
     resultadoAux = [];
   }
+  console.table(resultado);
   return resultado;
 }
-
-/*
-
-console.table(tabelaMultiplicacao(5)); <- Usado no teste de mesa
-console.table(multiplicacaoDe10()); <- Usado no teste de mesa
-
-*/ 
